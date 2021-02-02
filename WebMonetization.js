@@ -73,7 +73,7 @@ class WebMonetization {
             this.pointer = pointer;
             meta.content = pointer;
             document.getElementsByTagName('head')[0].appendChild(meta);
-            if(isBrowserEnabled()){
+            if(this.isBrowserEnabled()){
                 if(this.classExclusiveContent){
                     document.monetization.addEventListener('monetizationstart', () => {
                         document.getElementsByClassName(this.classExclusiveContent).classList.remove(this.classHiddenContent)
