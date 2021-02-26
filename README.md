@@ -13,6 +13,10 @@ MIT
 - [Coil](https://coil.com/)
 - [WebMonetization](https://webmonetization.org/)
 
+## Examples
+
+Check functions: https://techgethr.github.io/webmonetizationsamples/
+
 ## Use the library
 
 To consume this library, just add in the web header this library, either its full or minified version
